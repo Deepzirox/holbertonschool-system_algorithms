@@ -11,7 +11,7 @@ graph_t *graph_create(void)
 	graph = malloc(sizeof(*graph));
 	if (!graph)
 		return (NULL);
-    graph->vertices = NULL;
+	graph->vertices = NULL;
 	graph->nb_vertices = 0;
 	return (graph);
 }
